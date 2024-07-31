@@ -1,72 +1,72 @@
-# Rentable Items Marketplace
+# 物品捐贈與借用系統
 
-This project is a web application designed for users to browse, rent, and like various items. It features a clean layout with easy navigation and search functionality, enabling users to find items of interest quickly.
+這個項目是一個網頁應用程序，設計用戶可以瀏覽、租借和喜歡各種物品。它具有整潔的佈局，方便導航和搜索功能，使用戶能夠快速找到感興趣的物品。
 
 ## Features
 
-### Home Page Layout
+### 首頁版面
 
-1. **Sub Navigation Bar:**
+1. **次導覽列:**
 
-   - **Login:** Provides member login functionality. Displays the member's name upon successful login.
-   - **Register:** Allows new users to create an account.
-   - **Liked Items:** Enables users to browse items they have liked.
+   - **登入:** 提供會員登入，登入後顯示會員名稱。
+   - **註冊帳號:** 提供會員註冊。
+   - **按讚物品:** 瀏覽按讚的物品。
 
-2. **Main Navigation Bar:**
+2. **主導覽列:**
 
-   - Categories: Free Items, Fashion Trends, Other Goodies, Home Décor, 3C Electronics, Sports and Leisure.
+   - 類別: 免費物品、流行時尚、其他好物、品味居家、3C電子、運動休閒。
 
-3. **Search Functionality Area:**
+3. **搜尋功能區:**
 
-   - Search for items or users by location or through a search bar.
+   - 物品或用戶、地點、搜尋欄位。
 
-4. **Home Page Sections:**
+4. **首頁區塊:**
 
-   - **Section A:**
-     - **Rentable Items:** Displays the latest 20 rentable items with an option to "Browse More."
-   - **Section B:**
-     - **Hot Searches:** Displays the latest 20 popular search terms.
-     - **Search Categories:** Dropdown menu with categories:
-       - All Categories
-       - Free Items
-       - His Fashion
-       - Her Fashion
-       - Beauty Products
-       - Luxury Goods
-       - Furniture and Home Supplies
-       - TVs and Other Electronics
-       - Baby and Children’s Products
-       - Pet Supplies
-       - Computer and Technology Products
-       - Mobile Phones and Accessories
-       - Mobile and Recording Audio Equipment
-       - Cameras and Photography
-       - Sports Equipment
-       - Video Games
-       - Hobbies and Games
-       - LiLiKe
-   - **Sorting Options:** Dropdown menu with options:
-     - Recent
-     - Price High to Low
-     - Price Low to High
-   - **Sorted Rentable Items:** Displays 20 sorted records with an option to "Browse More."
-   - **Section C:**
-     - **Hot Searches:** Displays the latest 20 records.
+   - **A區塊:**
+     - **可租借物品:** 顯示最新20筆資料。
+   - **B區塊:**
+     - **熱門搜尋:** 顯示最新20筆資料。
+     - **搜尋分類:**下拉式選單:
+       - 所有分類
+       - 免費物品
+       - 他的時尚
+       - 她的時尚
+       - 美妝保養
+       - 名牌精品
+       - 家具及居家用品
+       - 電視及其他電器
+       - 嬰兒及兒童
+       - 寵物用品
+       - 電腦及科技產品
+       - 手機及配件
+       - 手機及錄音音訊設備
+       - 相機攝影
+       - 體育器材
+       - 電玩遊戲
+       - 興趣及遊戲
+       - 哩哩扣扣
+   - **排序:** 下拉式選單:
+     - 近期
+     - 價位高到低
+     - 價位低到高
+   - **排序後的可租借物品:** **顯示20筆資料**
+   - **C區塊:**
+     - **熱門搜尋:** 顯示最新20筆資料。
 
-5. **Bottom Navigation Bar:**
-   - Contact Information
-   - Rental Terms
+5. **底層導覽列:**
+   - 聯絡資訊
+   - 租借條款
 
-## Technologies Used
+## 使用技術
 
 - [React](https://reactjs.org/)
 - [Next.js](https://nextjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [Django](https://www.djangoproject.com/) (for the backend)
+- [Django](https://www.djangoproject.com/) (用於後端)
 
 ## Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/rentable-items-marketplace.git
+   git clone https://github.com/LAI TZU-HUEI/rentable-items-marketplace.git
    ```
